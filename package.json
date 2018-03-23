@@ -2,7 +2,7 @@
   "name": "react-native-wistia-player",
   "version": "1.0.0",
   "description": "Wistia Player on React Native",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/adhywiranata/react-native-wistia-player.git",
   "author": "<adhywiranatap@gmail.com>",
   "license": "MIT",
