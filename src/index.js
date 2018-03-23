@@ -11,8 +11,8 @@ export default class WistiaPlayer extends PureComponent {
 
   render() {
     return (
-      <View>
-        <Text>this should be a video too</Text>
+      // <View>
+        {/* <Text>this should be a video too</Text> */}
         {/* <WebView
           source={{html: webPlayer(this.props.videoId), baseUrl: 'https://wistia.com' }}
           style={{marginTop: 20, height: 300, width: 300 }}
@@ -30,7 +30,7 @@ export default class WistiaPlayer extends PureComponent {
           scrollEnabled={false}
           source={{uri: 'https://adoring-engelbart-8e45c7.netlify.com/' }}
         />
-      </View>
+      // </View>
     );
   }
 }
