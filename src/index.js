@@ -4,6 +4,20 @@ import PropTypes from 'prop-types';
 
 import webPlayer from './webPlayer';
 
+
+// <View>
+  // {/* <Text>this should be a video too</Text> */}
+  // {/* <WebView
+  //   source={{html: webPlayer(this.props.videoId), baseUrl: 'https://wistia.com' }}
+  //   style={{marginTop: 20, height: 300, width: 300 }}
+  // />
+  /* <WebView
+    source={{html: 'arigatou gozaimazu!!!', baseUrl: 'https://wistia.com' }}
+    style={{marginTop: 20, height: 300, width: 300 }}
+  /> */
+
+  // </View>
+
 export default class WistiaPlayer extends PureComponent {
   static propTypes = {
     videoId: PropTypes.any,
@@ -11,16 +25,6 @@ export default class WistiaPlayer extends PureComponent {
 
   render() {
     return (
-      // <View>
-        // {/* <Text>this should be a video too</Text> */}
-        // {/* <WebView
-        //   source={{html: webPlayer(this.props.videoId), baseUrl: 'https://wistia.com' }}
-        //   style={{marginTop: 20, height: 300, width: 300 }}
-        // />
-        /* <WebView
-          source={{html: 'arigatou gozaimazu!!!', baseUrl: 'https://wistia.com' }}
-          style={{marginTop: 20, height: 300, width: 300 }}
-        /> */
         <WebView
           style={{ flex: 1, height: 500 }}
           javaScriptEnabled={true}
@@ -30,7 +34,6 @@ export default class WistiaPlayer extends PureComponent {
           scrollEnabled={false}
           source={{uri: 'https://adoring-engelbart-8e45c7.netlify.com/' }}
         />
-      // </View>
     );
   }
 }
