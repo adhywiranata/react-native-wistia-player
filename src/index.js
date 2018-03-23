@@ -12,7 +12,7 @@ export default class WistiaPlayer extends PureComponent {
   render() {
     return (
       <View>
-        <Text>this should be a video</Text>
+        <Text>this should be a video too</Text>
         {/* <WebView
           source={{html: webPlayer(this.props.videoId), baseUrl: 'https://wistia.com' }}
           style={{marginTop: 20, height: 300, width: 300 }}
@@ -22,7 +22,7 @@ export default class WistiaPlayer extends PureComponent {
           style={{marginTop: 20, height: 300, width: 300 }}
         /> */}
         <WebView
-          style={{flex: 1 }}
+          style={{ flex: 1, height: 500 }}
           javaScriptEnabled={true}
           mediaPlaybackRequiresUserAction={false}
           builtInZoomControls={false}
