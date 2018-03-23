@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { WebView } from 'react-native';
+import { View, Text, WebView } from 'react-native';
 import PropTypes from 'prop-types';
 
 import webPlayer from './webPlayer';
@@ -11,10 +11,13 @@ export default class WistiaPlayer extends PureComponent {
 
   render() {
     return (
-      <WebView
-        source={{html: webPlayer(this.props.videoId) }}
-        style={{marginTop: 20, height: 300, width: 300 }}
-      />
+      <View>
+        <Text>this should be a video</Text>
+        <WebView
+          source={{html: webPlayer(this.props.videoId) }}
+          style={{marginTop: 20, height: 300, width: 300 }}
+        />
+      </View>
     );
   }
 }
