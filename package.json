@@ -1,0 +1,19 @@
+{
+  "name": "react-native-wistia-player",
+  "version": "1.0.0",
+  "description": "Wistia Player on React Native",
+  "main": "index.js",
+  "repository": "https://github.com/adhywiranata/react-native-wistia-player.git",
+  "author": "<adhywiranatap@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1"
+  }
+}
