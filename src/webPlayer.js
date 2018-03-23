@@ -5,6 +5,7 @@ export default videoId => `
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     </head>
     <body>
+      this is static HTML
       <script
         src="https://fast.wistia.com/embed/medias/${videoId}.jsonp"
         async
