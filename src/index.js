@@ -13,7 +13,7 @@ export default class WistiaPlayer extends PureComponent {
     return (
       <WebView
         source={{html: webPlayer(this.props.videoId) }}
-        style={{marginTop: 20}}
+        style={{marginTop: 20, height: 300, width: 300 }}
       />
     );
   }
