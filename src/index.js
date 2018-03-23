@@ -36,15 +36,9 @@ export default class WistiaPlayer extends PureComponent {
 
   render() {
     return (
-      <WebView
-          style={{ width: 500, height: 500 }}
-          javaScriptEnabled={true}
-          mediaPlaybackRequiresUserAction={false}
-          builtInZoomControls={false}
-          allowsInlineMediaPlayback={true}
-          scrollEnabled={false}
-          source={{uri: 'https://adoring-engelbart-8e45c7.netlify.com/' }}
-        />
+      <View>
+        <Text>this should be a video too</Text>
+      </View>
     );
   }
 }
