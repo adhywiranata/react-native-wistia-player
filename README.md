@@ -33,3 +33,15 @@ const MyComponent = (
 | videoId   | YES      | set which video to play                    |
 | style     | NO       | add additional style to WebView player     |
 | onMessage | NO       | function to handle onMessage WebView event |
+
+## Methods
+
+- togglePlaying()
+  toggle the play/pause state of the video.
+
+- setPlaybackSpeed(speed: Number)
+  sets the playback speed of the video. Defaults 1.
+
+## License
+
+MIT
