@@ -25,3 +25,11 @@ const MyComponent = (
 );
 
 ```
+
+## Props
+
+| Prop      | Required | Description                                |
+|-----------|----------|--------------------------------------------|
+| videoId   | YES      | set which video to play                    |
+| style     | NO       | add additional style to WebView player     |
+| onMessage | NO       | function to handle onMessage WebView event |
