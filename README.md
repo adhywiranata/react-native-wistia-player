@@ -39,9 +39,11 @@ const MyComponent = (
 ### Method Definition
 
 - **togglePlaying()**
+
   toggle the play/pause state of the video.
 
 - **setPlaybackSpeed(speed: Number)**
+  
   sets the playback speed of the video. Defaults to 1.
 
 ### Using Methods
@@ -54,7 +56,7 @@ import WistiaPlayer from 'react-native-wistia-player';
 
 export default class MyComponent extends React.Component {
   aFunction() {
-    this.player.WISTIA_PLAYER_METHOD()
+    this.player.WISTIA_PLAYER_METHOD();
   }
 
   render() {
