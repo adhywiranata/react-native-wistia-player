@@ -36,11 +36,37 @@ const MyComponent = (
 
 ## Methods
 
-- togglePlaying()
+### Method Definition
+
+- **togglePlaying()**
   toggle the play/pause state of the video.
 
-- setPlaybackSpeed(speed: Number)
-  sets the playback speed of the video. Defaults 1.
+- **setPlaybackSpeed(speed: Number)**
+  sets the playback speed of the video. Defaults to 1.
+
+### Using Methods
+
+You need to use reference (ref) to the player and call the method from it.
+
+```javascript
+import React from 'react';
+import WistiaPlayer from 'react-native-wistia-player';
+
+export default class MyComponent extends React.Component {
+  aFunction() {
+    this.player.WISTIA_PLAYER_METHOD()
+  }
+
+  render() {
+    return (
+      <WistiaPlayer
+        ref={(wistiaPlayer) => this.player = wistiaPlayer}
+        videoId={YOUR_WISTIA_VIDEO_ID}
+      />
+    );
+  }
+}
+```
 
 ## License
 
