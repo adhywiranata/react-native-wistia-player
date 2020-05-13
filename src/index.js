@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
-import { View, Text, WebView } from 'react-native';
+import { View, Text } from 'react-native';
+import { WebView } from 'react-native-webview';
 import PropTypes from 'prop-types';
 
 import webPlayer from './webPlayer';
